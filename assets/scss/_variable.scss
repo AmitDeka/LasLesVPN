@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
+
+$variable-prefix: ll- !default;
+
+$primary: #f53838 !default;
+$secondary: #4f5665 !default;
+$footerBG: #f8f8f8 !default;
+
+$shadowColor: #11132314 !default;
+
+$dot-color: #dde0e4 !default;
+
+$primary-light: #ffecec;
+$secondary-light: #f6f6f6;
+
+$success: #2fab73 !default;
+// $info: #22d3ee !default;
+$warning: #fea250 !default;
+// $danger: #f25042 !default;
+
+$light: #ffffff !default;
+$dark: #0b132a !default;
+$paragraph: $secondary !default;
+
+// Font weight
+$font-weight-normal: 400 !default;
+$font-weight-semibold: 500 !default;
+$font-weight-bold: 700 !default;
+
+// Font family
+$font-family-sans-serif: "Rubik", sans-serif !default;
+
+// negative margin
+$enable-negative-margins: true;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 735px,
+  lg: 960px,
+  xl: 1150px,
+  xxl: 1350px,
+);
+
+// Body
+$body-bg: $light !default;
+$body-color: $paragraph !default;
+
+// font size
+$font-size-base: 1rem !default;
+
+$h1-font-size: $font-size-base * 3 !default;
+$h2-font-size: $font-size-base * 2.5 !default;
+$h3-font-size: $font-size-base * 2 !default;
+$h4-font-size: $font-size-base * 1.75 !default;
+$h5-font-size: $font-size-base * 1.5 !default;
+$h6-font-size: $font-size-base * 1.25 !default;
+
+$font-size-xl: $font-size-base * 1.5 !default;
+$font-size-xxl: $font-size-base * 2 !default;
+
+// Headings
+$headings-color: $dark !default;
+
+// Button border
+$btn-border-width: 2px;
+$btn-link-hover-color: $light;
+$btn-font-weight: 500;
+
+// Border radius
+$border-radius-lg: 0.625rem !default;

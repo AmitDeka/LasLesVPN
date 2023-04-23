@@ -1,0 +1,20 @@
+{
+  "name": "laslesvpn",
+  "version": "1.04.23",
+  "description": "Landing Page for Lasles VPN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LandingPage",
+    "Bootstrap",
+    "npm",
+    "html"
+  ],
+  "author": "Amit Deka",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
