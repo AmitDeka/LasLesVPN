@@ -3922,9 +3922,9 @@ textarea.form-control-lg {
   --ll-navbar-toggler-padding-x: 0.75rem;
   --ll-navbar-toggler-font-size: 1.25rem;
   --ll-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  --ll-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
+  --ll-navbar-toggler-border-color: transparent;
   --ll-navbar-toggler-border-radius: 0.375rem;
-  --ll-navbar-toggler-focus-width: 0.25rem;
+  --ll-navbar-toggler-focus-width: 0px;
   --ll-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
   position: relative;
   display: flex;

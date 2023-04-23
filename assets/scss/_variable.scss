@@ -61,6 +61,10 @@ $font-size-xxl: $font-size-base * 2 !default;
 // Headings
 $headings-color: $dark !default;
 
+// Navbar
+$navbar-light-toggler-border-color: transparent !default;
+$navbar-toggler-focus-width: 0px !default;
+
 // Button border
 $btn-border-width: 2px;
 $btn-link-hover-color: $light;
