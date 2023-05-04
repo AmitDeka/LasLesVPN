@@ -1,6 +1,6 @@
 {
   "name": "laslesvpn",
-  "version": "1.04.23",
+  "version": "1.05.04",
   "description": "Landing Page for Lasles VPN",
   "main": "index.js",
   "scripts": {
