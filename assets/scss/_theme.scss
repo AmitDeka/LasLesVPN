@@ -92,9 +92,13 @@ html {
     border-width: 2px;
     transition: all 0.15s ease-in;
     img {
-      height: 165px;
+      height: 150px;
       margin: 0 auto;
-      width: 145px;
+      width: 132px;
+      @include breakpoint(lg) {
+        height: 165px;
+        width: 145px;
+      }
     }
 
     ul {
@@ -113,10 +117,7 @@ html {
         box-shadow: 0 0.75rem 2rem rgba($primary, 0.35);
       }
     }
-    @include breakpoint(lg) {
-      // height: 730px;
-      // width: 330px;
-    }
+
     &:hover {
       border-color: $primary;
     }
