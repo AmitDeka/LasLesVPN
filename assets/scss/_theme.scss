@@ -38,7 +38,7 @@ html {
 }
 
 .shadow-primary {
-  box-shadow: 0 1rem 2rem rgba($primary, 0.35);
+  box-shadow: 0 0.75rem 2rem rgba($primary, 0.35);
 }
 
 .circle-bg-light {
@@ -140,13 +140,17 @@ html {
   }
   .slick-slide {
     height: inherit !important;
-    margin: 0 2rem;
+    @include breakpoint(lg) {
+      margin: 0 1rem;
+    }
     & > div {
       height: 100% !important;
     }
   }
   .slick-list {
-    margin: 0 -2rem;
+    @include breakpoint(lg) {
+      margin: 0 -2rem;
+    }
   }
   .slick-slider-dots {
     position: absolute;
@@ -233,7 +237,7 @@ footer {
   background-color: $footerBG;
 
   #newsletter {
-    margin-top: -8rem;
+    margin-top: -12rem;
     @include breakpoint(lg) {
       margin-top: -12rem;
     }
@@ -267,6 +271,16 @@ footer {
           height: 1.25rem;
           width: 1.25rem;
         }
+      }
+    }
+  }
+
+  .footer-links {
+    ul.list-unstyled {
+      margin-bottom: 0 !important;
+
+      li:last-of-type {
+        margin-bottom: 0 !important;
       }
     }
   }
