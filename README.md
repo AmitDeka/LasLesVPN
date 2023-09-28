@@ -17,6 +17,46 @@ The landing page template includes the following features:
 
 To use this landing page template, simply download the files and host them on your web server. You can customize the text and images to match your VPN application.
 
+## Customization
+
+#### Requirment
+- NodeJS
+- NPM or Yarn package manager
+
+Download or clone the repository.
+
+```cmd
+git clone https://github.com/AmitDeka/LasLesVPN.git
+```
+After that, from the root of your download/clone:
+
+```cmd
+npm install
+```
+If something goes wrong, delete the <span style="color:#ff5757">node_modules</span> folder and run npm install again.
+
+Now let’s make sure you also have Gulp installed globally:
+```cmd
+npm install gulp -g
+```
+
+### Start server
+```cmd
+gulp serve
+```
+You should see a live browser at <span style="color:#ff5757">http://localhost:3000/</span>.
+
+### Production
+```cmd
+gulp
+```
+
+If you want HTML, CSS minification & image optimization:
+```cmd
+npm run prod
+```
+<span style="color:#ff5757">dist</span> folder is the destination. You can now go <span style="color:#ff5757">dist/index.html</span> and check the output.
+
 ## Usage
 
 This landing page template is designed to be easy to use and customize. Here are some tips for using this template effectively:
